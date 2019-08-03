@@ -64,7 +64,7 @@ async def on_message(message):
         embed.add_field(name='**일반 명령어**', value='``>>도움말`` , ``>>아바타`` , ``>>리스트`` , ``>>유저정보`` , ``>>봇정보``', inline=True)
         embed.add_field(name='**봇 정보**', value='``>>개발자``', inline=False)
         embed.add_field(name='**Other**', value='`Copyright ⓒ 2019 ArdanKR_ All right reserved`', inline=False)
-        embed.set_footer(text='Thanks to use XSplace. If you have an error or problem, please contact ArdanKR_#9290')
+        embed.set_footer(text='XSplace 봇을 사용해주셔서 감사합니다. 에러 또는 기타 문제가 발생할 시 디스코드 ArdanKR_#9290으로 연락해주세요')
         await client.send_message(message.channel, embed=embed)
 
     if message.content.startswith('>>봇정보'):
